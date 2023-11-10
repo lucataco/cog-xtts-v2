@@ -1,0 +1,10 @@
+# Configuration for Cog ⚙️
+build:
+  gpu: true
+  cuda: "11.8"
+  python_version: "3.11"
+
+  python_packages:
+    - "git+https://github.com/coqui-ai/TTS.git"
+
+predict: "predict.py:Predictor"
