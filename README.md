@@ -4,7 +4,7 @@ This is an implementation of the [coqui /xtts-v2](https://github.com/coqui-ai/tt
 
 Run predictions:
 
-    cog predict -i text="Hi there, I'm your new voice clone. Try your best to upload quality audio" -i speaker_wav=@female.wav
+    cog predict -i text="Hi there, I'm your new voice clone. Try your best to upload quality audio" -i speaker=@female.wav
 
 ## Example:
 
