@@ -18,7 +18,7 @@ class Predictor(BasePredictor):
         speaker: Path = Input(description="Original speaker audio (wav, mp3, m4a, ogg, or flv)"),
         language: str = Input(
             description="Output language for the synthesised speech",
-            choices=["en", "es", "fr", "de", "it", "pt", "pl", "tr", "ru", "nl", "cs", "ar", "zh-cn"],
+            choices=["en", "es", "fr", "de", "it", "pt", "pl", "tr", "ru", "nl", "cs", "ar", "zh", "hu", "ko"],
             default="en"
         ),
         cleanup_voice: bool = Input(
