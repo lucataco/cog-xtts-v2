@@ -15,7 +15,7 @@ class Predictor(BasePredictor):
             description="Text to synthesize",
             default="Hi there, I'm your new voice clone. Try your best to upload quality audio"
         ),
-        speaker: Path = Input(description="Original speaker audio (wav, mp3, m4a, ogg, or flv)"),
+        speaker: Path = Input(description="Original speaker audio (wav, mp3, m4a, ogg, or flv). Duration should be at least 6 seconds."),
         language: str = Input(
             description="Output language for the synthesised speech",
             choices=["en", "es", "fr", "de", "it", "pt", "pl", "tr", "ru", "nl", "cs", "ar", "zh", "hu", "ko", "hi"],
