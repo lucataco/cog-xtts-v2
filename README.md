@@ -1,5 +1,7 @@
 # coqui /xtts-v2
 
+[![Try a demo on Replicate](https://replicate.com/lucataco/xtts-v2/badge)](https://replicate.com/lucataco/xtts-v2)
+
 This is an implementation of the [coqui /xtts-v2](https://github.com/coqui-ai/tts) as a Cog model. [Cog packages machine learning models as standard containers.](https://github.com/replicate/cog)
 
 Run predictions:
